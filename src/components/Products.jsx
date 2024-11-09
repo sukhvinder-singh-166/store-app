@@ -31,9 +31,16 @@ const Products = () => {
     {
       image:
         "https://imgs.search.brave.com/5mIG_1n1jiyHnVqD8gpx4jwa_NfhWZq5kcgU4T6xdF4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9nYW1pbmctc2V0/dXAtd2l0aC1uZW9u/LWxpZ2h0cy1mdXR1/cmlzdGljLWltYWdl/LW1vbml0b3JfMTAz/Mjg4OS00MzEwLmpw/Zz9zZW10PWFpc19o/eWJyaWQ",
-      name: "Product 3",
+      name: "Product 4",
       description: "This is a product lorem ipsum dolor sit amet",
       price: 300,
+    },
+    {
+      image:
+        "https://imgs.search.brave.com/xJx58gH947bkQmrPahCWTJk4RdDKxyxSYywdKFZ4Hho/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA1LzYzLzkzLzM5/LzM2MF9GXzU2Mzkz/MzkwMV84ajlCWWxN/UnMxZTZIc2xJMk1I/S2oxWDF0Zmlhc3Ru/Ty5qcGc",
+      name: "Product 5",
+      description: "This is a product lorem ipsum dolor sit amet",
+      price: 33200,
     },
   ];
   const ADDCART = (product) => {
