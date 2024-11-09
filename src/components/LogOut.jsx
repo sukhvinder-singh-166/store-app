@@ -8,7 +8,12 @@ const LogOut = () => {
   };
   return (
     <>
-      <button onClick={LOGOUT}>log out</button>
+      <button
+        onClick={LOGOUT}
+        className="px-3 py-2 rounded-md text-white bg-blue-500 whitespace-nowrap"
+      >
+        log out
+      </button>
     </>
   );
 };
