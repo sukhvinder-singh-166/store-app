@@ -29,7 +29,7 @@ const Login = () => {
   };
   return (
     <>
-      <div className="flex justify-center flex-col bg-black items-center h-screen">
+      <div className="flex justify-center flex-col bg-black items-center min-h-screen">
         <h1 className="text-4xl font-bold mb-5 text-white">Login</h1>
         <form className="flex flex-col gap-4">
           <input

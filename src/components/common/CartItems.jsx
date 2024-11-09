@@ -49,7 +49,7 @@ const CartItems = () => {
   };
 
   return (
-    <div className="bg-black h-screen pt-5">
+    <div className="bg-black min-h-screen py-5">
       <div className="flex justify-between w-full items-center lg:gap-5 max-w-7xl mx-auto px-3">
         <h1 className="text-2xl md:text-4xl font-bold lg:mb-5 text-white">
           Cart Items
