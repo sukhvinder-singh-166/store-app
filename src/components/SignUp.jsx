@@ -13,7 +13,7 @@ const SignUp = () => {
       return;
     }
     await axios
-      .post("http://localhost:3000/signup", {
+      .post("https://store-backend-oisp.onrender.com/signup", {
         username,
         email,
         password,

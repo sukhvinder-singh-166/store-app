@@ -21,7 +21,7 @@ const UpdatePass = () => {
       return;
     }
     axios
-      .post("http://localhost:3000/forgetPass", {
+      .post("https://store-backend-oisp.onrender.com/forgetPass", {
         email,
         oldPass,
         newPass,

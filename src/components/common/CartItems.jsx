@@ -13,7 +13,9 @@ const CartItems = () => {
       if (email) {
         try {
           const result = await axios.get(
-            `http://localhost:3000/getCart?email=${encodeURIComponent(email)}`
+            `https://store-backend-oisp.onrender.com/getCart?email=${encodeURIComponent(
+              email
+            )}`
           );
           if (result.data.products.length > 0) {
             setProducts(result.data.products);
@@ -34,9 +36,12 @@ const CartItems = () => {
     }
 
     try {
-      const result = await axios.delete("http://localhost:3000/deleteProduct", {
-        data: { email: email, productName: productName },
-      });
+      const result = await axios.delete(
+        "https://store-backend-oisp.onrender.com/deleteProduct",
+        {
+          data: { email: email, productName: productName },
+        }
+      );
       setProducts(result.data.products);
     } catch (error) {
       console.error("Error deleting product:", error);

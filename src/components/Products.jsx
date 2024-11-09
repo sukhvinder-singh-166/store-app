@@ -44,7 +44,7 @@ const Products = () => {
     },
   ];
   const ADDCART = (product) => {
-    axios.post("http://localhost:3000/addProduct", {
+    axios.post("https://store-backend-oisp.onrender.com/addProduct", {
       email: email,
       product: product,
     });

@@ -12,7 +12,7 @@ const Login = () => {
       return;
     }
     axios
-      .post("http://localhost:3000/login", {
+      .post("https://store-backend-oisp.onrender.com/login", {
         email,
         password,
       })
